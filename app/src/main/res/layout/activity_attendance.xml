@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/e"
+    tools:context="com.example.mohit.nomorelies.Attendance">
+
+    <Button
+        android:id="@+id/SetDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/LightRed"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Set Date" />
+
+    <Button
+        android:id="@+id/SetTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/LightBlue"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Set Time"
+        android:layout_below="@+id/SetDate"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:id="@+id/rollno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/ShowStudents"
+        android:layout_alignStart="@+id/SetTime"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Green"
+        android:layout_marginTop="43dp"
+        android:text="Next"
+        android:layout_below="@+id/rollno"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/ShowStudents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Yellow"
+        android:layout_alignEnd="@+id/Next"
+        android:layout_below="@+id/SetTime"
+        android:layout_marginTop="17dp"
+        android:text="Show" />
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NoMoreLies</string>
+    <string name="Post_project">Post Project</string>
+    <string name="title_hint">Technology</string>
+    <string name="Description">Title,Description,Bio,Budget etc</string>
+    <string name="Post">Post</string>
+    <string name="name">Your name...</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="newacc">Need a new account</string>
+    <string name="id">Enter your Teacher id.</string>
+    <string name="rollno">Enter University Roll no.</string>
+    <string name="Contactno">Enter Mobile no.</string>
+    <string name="Teacher">For Teacher</string>
+    <string name="Parents">For Parents</string>
+    <string name="attendance">Take Attendance</string>
+    <string name="AddStudent">Add New Student</string>
+    <string name="logout">Logout</string>
+    <string name="Details">Enter Details of Student</string>
+    <string name="Stuname">Student Name</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>

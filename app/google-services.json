@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1056907114868",
+    "firebase_url": "https://nomorelies-838c5.firebaseio.com",
+    "project_id": "nomorelies-838c5",
+    "storage_bucket": "nomorelies-838c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056907114868:android:3684d4ea4198c74f",
+        "android_client_info": {
+          "package_name": "com.example.mohit.nomorelies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056907114868-10053uqjl6vprouv1dobbrfp4kfu9k2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mohit.nomorelies",
+            "certificate_hash": "e16b7113f2a5dce0863e07a35ffc9854d7778d08"
+          }
+        },
+        {
+          "client_id": "1056907114868-dmh1urjovtffgb6qlbo0e6l4m30kmckk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvnS0viVSC_m0rhhZ1YI-qtDAY84GmPzQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056907114868-dmh1urjovtffgb6qlbo0e6l4m30kmckk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
